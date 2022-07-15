@@ -1,0 +1,26 @@
+#app2 .tab-bar,
+#app2 .tab-content {
+    display: flex;
+}
+#app2 .tab-bar li,#app2 .tab-content li{
+    width: 50%;
+    border: 1px solid green;
+    text-align: center;
+}
+
+
+
+#app2 .tab-content > li{
+    color: transparent;
+}
+
+#app2 .tab-content > li.active{
+    color: black;
+}
+
+
+.selected{
+    color: white;
+    background-color: #2e8bf7;
+}
+
